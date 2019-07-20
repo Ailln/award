@@ -2,7 +2,6 @@ from flask import Flask
 from flask import request
 from flask import send_file
 from PIL import Image
-from PIL import ImageFont
 from PIL import ImageDraw
 
 
@@ -12,8 +11,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     arg = request.args
-    l_text = arg["left"]
-    r_text = arg["right"]
+    l_text = arg["lt"]
+    r_text = arg["rt"]
 
     margin = 4
     l_w = len(l_text)*6 + margin*2
@@ -34,7 +33,7 @@ def index():
     img.paste(img_r, (l_w, 0))
 
     # 圆角
-    mask = Image.new('L', img.size, color = 0)
+    mask = Image.new('L', img.size, color=0)
     draw = ImageDraw.Draw(mask)
     r = 14
     draw.ellipse((0, 0, r, r), fill=255)

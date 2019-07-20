@@ -76,6 +76,7 @@ python app.py
 > ⚠️
 > 1. 代码仅支持 `Python 3.6+`。
 > 2. 此版本的输入文本不支持 `emoji` 表情。
+> 3. 此版本代码仅支持 `lt` 和 `rt` 两个参数。
 
 ## 4 后续计划
 
@@ -83,6 +84,6 @@ python app.py
 
 ## 5 协议
 
-[![](https://award.dovolopor.com?lt=License&rt=MIT&rtc=green)](./LICENSE)
+[![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)
 
 > ⚠️ 不知道你有没有发现「👆这个图标」就是用本项目生成的。
