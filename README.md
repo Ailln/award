@@ -30,7 +30,7 @@ node app.js
 
 `![](https://award.dovolopor.com?$parameters)`
 
-`$parameters` 为参数，和常见的 `GET` 请求参数一致。举个例子：`l=name&r=Ailln`。
+`$parameters` 为参数，和常见的 `GET` 请求参数一致。举个例子：`lt=name&rt=Ailln`。
 
 参数列表：
 
