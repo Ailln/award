@@ -10,7 +10,7 @@
 
 ```bash
 # 克隆代码
-git clone https://github.com/HaveTwoBrush/award.git
+git clone https://github.com/Ailln/award.git
 
 cd award/expressjs
 # 安装依赖
@@ -52,7 +52,7 @@ node app.js
 
 `$parameters` 为参数，同上文。
 
-`$url` 为跳转的链接，比如 `https://github.com/HaveTwoBrush/award`。
+`$url` 为跳转的链接，比如 `https://github.com/Ailln/award`。
 
 ## 3 黎明之前的黑暗
 
