@@ -2,7 +2,7 @@
 
 🏆 `award` 是一个类似于 [shields.io](https://shields.io/) 的图标生成器，它可以用来表示一些「数据」和「链接」。
 
-![](https://award.dovolopor.com?lt=have&rt=fun&lbc=red&round=true)
+![](https://award.dovolopor.com?lt=have&rt=fun&lbc=blue&rbc=white&rtc=blue&round=true)
 
 ## 1 安装
 
@@ -11,16 +11,16 @@
 ```bash
 # 克隆代码
 git clone https://github.com/HaveTwoBrush/award.git
-
 cd award/expressjs
+
 # 安装依赖
 npm install
 
-# 运行
-node app.js
+# 本地运行
+npm run dev
 ```
 
-此时你可以尝试在浏览器中输入： `http://127.0.0.1:3000?lt=🏆&rt=A.M%20Turing%20Award.`，你将会得到这样一个图片：![](https://award.dovolopor.com?lt=🏆&rt=A.M%20Turing%20Award.)
+此时你可以尝试在浏览器中输入： `http://127.0.0.1:3000?lt=🏆&rt=A.M%20Turing%20Award.`，你将会得到这样一个图片：![](https://award.dovolopor.com?lt=🏆&rt=A.M%20Turing%20Award.)。
 
 当然你也可以像我一样，将它部署在服务器上 `https://award.dovolopor.com?lt=🏆&rt=A.M%20Turing%20Award.` 供给任何人使用。
 
@@ -42,7 +42,8 @@ node app.js
 - `rtc`: 即 right text color，右侧文本颜色，默认值为 `white`；
 - `round`: 即 is round，是否启用圆角，默认值为不启用；
 
-> ⚠️ 
+> ⚠️
+>
 > 1. 如果想输入 `空格`，请用 `%20` 表示。
 > 2. 支持输入 `emoji` 表情。
 
@@ -74,16 +75,18 @@ python app.py
 ```
 
 > ⚠️
+>
 > 1. 代码仅支持 `Python 3.6+`。
 > 2. 此版本的输入文本不支持 `emoji` 表情。
 > 3. 此版本代码仅支持 `lt` 和 `rt` 两个参数。
 
 ## 4 后续计划
 
-近期打算继续丰富 `形状`，`颜色`，`字体` 等功能，如果你又什么好想法可以提 [Issue](https://github.com/HaveTwoBrush/award/issues)，我们一同探讨。 
+近期打算继续丰富 `形状`，`颜色`，`字体` 等功能，如果你又什么好想法可以提 [Issue](https://github.com/HaveTwoBrush/award/issues)，我们一同探讨。
 
 ## 5 协议
 
 [![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)
+[![](https://award.dovolopor.com?lt=Ailln's&rt=idea&lbc=lightgray&rbc=red&ltc=red)](https://github.com/Ailln/award)
 
 > ⚠️ 不知道你有没有发现「👆这个图标」就是用本项目生成的。
