@@ -85,6 +85,10 @@ python app.py
 
 近期打算继续丰富 `形状`，`颜色`，`字体` 等功能，如果你又什么好想法可以提 [Issue](https://github.com/HaveTwoBrush/award/issues)，我们一同探讨。
 
+- [ ] 添加一些小的动画；
+- [ ] 添加二维码；
+- [ ] 添加链接。
+
 ## 5 协议
 
 [![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)
