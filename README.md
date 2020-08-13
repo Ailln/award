@@ -2,7 +2,7 @@
 
 🏆 `award` 是一个类似于 [shields.io](https://shields.io/) 的图标生成器，它可以用来表示一些「数据」和「链接」。
 
-![](https://award.dovolopor.com?lt=have&rt=fun&lbc=blue&rbc=white&rtc=blue&round=true)
+![](https://award.dovolopor.com?lt=have&rt=fun&lbc=DeepSkyBlue&rbc=GhostWhite&rtc=DeepSkyBlue&round=true)
 
 ## 1 安装
 
