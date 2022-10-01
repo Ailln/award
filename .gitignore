@@ -103,6 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# py
+archive/*.png
+
 # js
 node_modules
 .idea/
+.DS_Store

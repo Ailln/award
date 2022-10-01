@@ -1,19 +1,15 @@
-from flask import Flask
-from flask import request
-from flask import send_file
-from PIL import Image
-from PIL import ImageDraw
+from flask import Flask, request, send_file
+from PIL import Image, ImageDraw
 
 
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def index():
     arg = request.args
-    l_text = arg["lt"]
-    r_text = arg["rt"]
-
+    l_text = arg.get("lt", "left")
+    r_text = arg.get("rt", "right")
     margin = 4
     l_w = len(l_text)*6 + margin*2
     r_w = len(r_text)*6 + margin*2
@@ -50,4 +46,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=3001)

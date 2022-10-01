@@ -1,14 +1,14 @@
 {
   "name": "award",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a badge generator for representing data and links.",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "node app.js",
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ailln",
